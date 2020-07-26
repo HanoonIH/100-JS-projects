@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change BG color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="type">
+        <input type="checkbox" name="type" id="css" value="css">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" name="type" id="hex" value="hex">
+        <label for="hex">HEX</label>
+
+        <input type="checkbox" name="type" id="rgb" value="rgb">
+        <label for="rgb">RGB</label>
+    </div>
+    <div id="main" class="type">       
+        <div class="display-div" id="displayDiv">
+            <h1 id="typeName"></h1>
+            <h1 id="display">white</h1>
+            <h1 id="hexDisplay">#ffffff</h1>
+            <h1 id="rgbDisplay">rgb(255,255,255)</h1>
+        </div>
+        <button onclick="changeBg()">Change Colour</button>
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
