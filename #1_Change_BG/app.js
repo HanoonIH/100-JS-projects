@@ -1,4 +1,3 @@
-
 const colorBox = [
     "AliceBlue",
     "AntiqueWhite",
