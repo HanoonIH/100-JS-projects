@@ -1,0 +1,18 @@
+body {
+    background-color: #1A1F3F;
+}
+
+div {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: wheat;
+}
+input{
+    font-size: 30px;
+}
+#warning {
+    display: none;
+}
