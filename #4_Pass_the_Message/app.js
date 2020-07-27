@@ -11,3 +11,4 @@ send.addEventListener('click', function(){
     newMsg.textContent = msg
   }
 });
+console.log(this)
