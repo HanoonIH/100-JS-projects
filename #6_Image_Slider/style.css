@@ -1,0 +1,22 @@
+body {
+    background-color: #1A1F3F;
+}
+
+div {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: wheat;
+}
+img {
+    transition-duration: 1s;
+    transition: ease-in;
+}
+#counter{
+    font-size: 100px;
+}
+#warning {
+    display: none;
+}
